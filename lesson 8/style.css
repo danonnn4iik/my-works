@@ -1,0 +1,78 @@
+.fontawesome{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(6, 6, 129);
+    border-radius: 25px;
+    transition-duration: 2s;
+    display: flex;
+}
+li{
+    color: cornsilk;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+li:hover{
+    font-size: 30px;
+}
+.fontawesome:hover{
+    width:1800px;
+}
+.transform{
+    width: 1900px;
+    height: 300px;
+    background-color: rgb(6, 6, 129);
+    border-radius: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.transformbox{
+    width:200px;
+    height: 200px;
+    background-color:white ;
+    margin-left:50px;
+    animation: skew 4s infinite ;
+}
+@keyframes skew{
+    0%{transform: skew(20deg);}
+    100%{transform: skew(-20deg);}
+}
+.background{
+    width: 800px;
+    height: 400px;
+}
+.backgroundcss{
+    width: 800px;
+    height: 400px;
+    object-fit: contain;
+}
+picture{
+    margin-left: 500px;
+}
+.blueblock{
+    color: white;
+}
+.universes{
+    display: flex;
+    flex-direction: row;
+    width: 1800px;
+    height: 500px;
+    justify-content: space-around;
+}
+.starwars{
+    width: 500px;
+    height: 300px;
+}
+.dc{
+    width: 500px;
+    height: 300px;
+}
+.marvel{
+    width: 500px;
+    height: 300px;
+}
+body{
+    background-COLOR:darkgray;
+}

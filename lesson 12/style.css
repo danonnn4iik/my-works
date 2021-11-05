@@ -1,0 +1,29 @@
+li{
+    list-style-type: none;
+}
+.list li:nth-child(1){
+    text-decoration: line-through
+    ;
+}
+.list li:nth-child(2){
+    font-weight: bold;
+}
+.list li:nth-child(3){
+    font-style: italic;
+}
+.list li:nth-child(4){
+    text-transform: uppercase;
+}
+li:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url(https://cdn-icons.flaticon.com/png/512/3489/premium/3489824.png?token=exp=1636040690~hmac=7066d232f9038280ce875369b79b6159);
+    background-size: cover;
+    margin-right: 10px;
+}
+.list2 li:active{
+
+    color: red;
+}

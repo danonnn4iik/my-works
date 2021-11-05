@@ -1,0 +1,81 @@
+.header{
+    width:  600px;
+    height: 300px;
+}
+.green{
+    background-color: rgb(0, 100, 0);
+}
+.redheader{
+    width:600px;
+    height:100px;
+}
+.red{
+    background-color: rgb(138, 4, 4);
+}
+.greenheader{
+    width: 600px;
+    height: 100px;
+}
+.blueheader{
+    width: 600px;
+    height: 100px;
+}
+.blue{
+    background-color: rgb(30, 144, 255);
+}
+.mid{
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+}
+.midtop{
+    width: 600px;
+    height: 100px;
+}
+.midtopfirst{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.midtopsecond{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.midtopthird{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.midmid{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(247, 218, 56);
+}
+.middown{
+    width: 600px;
+    height: 100px;
+}
+.grey{
+    background-color: rgb(136, 135, 135);
+}
+.darkgrey{
+    background-color: rgb(75, 73, 73);
+}
+.middownfirst{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.down{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(144, 238, 144);
+    margin-top: 50px;
+}
+.downcube{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin:20px 20px 20px 20px;
+}
